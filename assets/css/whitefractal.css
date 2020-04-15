@@ -514,6 +514,12 @@ section:nth-of-type(5n):before,  section:nth-of-type(5n):after  {
   background-image: url("../img/frac-navy-md.png");
 }
 
+@media (max-width: 600px) {
+  #contactus a {
+    font-size: 1.25rem;
+  }  
+}
+
 .text-primary {
   color: #1D809F !important;
 }
