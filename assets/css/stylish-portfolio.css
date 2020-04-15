@@ -347,7 +347,17 @@ p:last-of-type {
 
 footer.footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 5rem;  
+}
+
+footer .logo-pink {
+  background-image: url('../img/logo-pink-lg.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  min-height: 3em;
 }
 
 footer.footer .social-link {
@@ -356,15 +366,17 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #fff;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #000;  
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #0EAD69;
+  color: #fff;
   text-decoration: none;
 }
 
