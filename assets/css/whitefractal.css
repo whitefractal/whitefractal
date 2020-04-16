@@ -212,6 +212,14 @@ body.post {
   height: 310px;
 }
 
+.post .attribution {
+  margin-top: 1em;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 100;
+  color: #F21B3F;
+  text-align: right;
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
