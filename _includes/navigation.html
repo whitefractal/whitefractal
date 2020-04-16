@@ -4,22 +4,29 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top"></a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#page-top"></a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#about">About</a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#about">About</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#startups">Start-ups, Spin-outs, R&D</a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#startups">Start-ups, Spin-outs, R&D</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#dsm">Dynamic Spectrum Management</a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#dsm">Dynamic Spectrum Management</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#blog">Blog</a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#blog">Blog</a>
+            <ul>
+              {% for post in site.posts %}
+                <li>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#contactus">Contact Us</a>
+            <a class="js-scroll-trigger" href="{{ site.baseurl }}/index.html#contactus">Contact Us</a>
         </li>
     </ul>
 </nav>

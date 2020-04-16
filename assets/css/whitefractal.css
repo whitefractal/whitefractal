@@ -25,10 +25,27 @@ body {
 
 h1 {
   font-size: 4rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
   font-size: 3rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 1.75rem 0;
+}
+
+h4 {
+  font-size: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+h5 {
+  font-size: 1.5rem;
+  margin: 1.25rem 0;
 }
 
 .content-section-heading h3 {
@@ -58,6 +75,10 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
+code, a {
+  color: #F21B3F;
+}
+
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -81,6 +102,12 @@ p:last-of-type {
 
 .scroll-to-top i {
   font-weight: 800;
+}
+
+blockquote {
+  margin: 0 2rem 1rem;
+  font-style: italic;
+  color: #F21B3F;
 }
 
 .masthead {
@@ -192,8 +219,8 @@ body.post {
   right: 0;
   width: 250px;
   height: 100%;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
   background: #000;
@@ -257,8 +284,8 @@ body.post {
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
 }
 
 .menu-toggle {
@@ -399,7 +426,7 @@ footer.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
-  line-height: 4.3rem;
+  line-height: 4.7rem;
   font-size: 1.5rem;
   background-color: #fff;
   -webkit-transition: background-color 0.15s ease-in-out;
