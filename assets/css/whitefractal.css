@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Amiri', serif;
-  background: #F21B3F;
+  font-family: 'Amiri', serif;  
 }
 
 .btn-xl {
@@ -55,21 +54,6 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -105,6 +89,7 @@ p:last-of-type {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #F21B3F;
   border-bottom: 20vh solid #F21B3F;
   color: #fff;
 }
@@ -157,6 +142,38 @@ p:last-of-type {
   .masthead .container {
     margin-top: 50vh;
   }
+}
+
+body.post {
+  min-height: 100%;
+}
+
+.post-header {
+  background-color: #F21B3F;
+  background-image: url('../img/logo-pink-lg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 3em;
+}
+
+
+.post-header a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.post-content {
+  /*margin-bottom: 310px;*/
+  min-height: calc(100vh - 310px - 3em);
+}
+
+.post footer {
+  /*position: absolute;
+  bottom: 0;
+  width: 100%;*/
+  height: 310px;
 }
 
 /* Side Menu */
@@ -356,6 +373,7 @@ p:last-of-type {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;  
+  background: #F21B3F;
 }
 
 footer .logo-pink {
