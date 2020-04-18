@@ -209,7 +209,7 @@ body.post {
 }
 
 .post footer {
-  height: 310px;
+  min-height: 310px;
 }
 
 .post .attribution {
@@ -219,6 +219,24 @@ body.post {
   color: #F21B3F;
   text-align: right;
 }
+
+a.blog-index {
+  color: #000;
+  display: block;
+  padding: 0 1em 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+a.blog-index:hover {
+  color: #fff;
+  text-decoration: none;  
+}
+
+.blog-index .attribution {
+  text-align: right;
+  font-style: italic;
+}
+
 
 /* Side Menu */
 #sidebar-wrapper {

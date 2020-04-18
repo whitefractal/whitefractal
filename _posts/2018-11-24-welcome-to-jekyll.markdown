@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2018-11-24 12:27:47 +0530
 categories: jekyll update
 author: Alistair Braden
+summary: Some words about what words have been written here.
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
