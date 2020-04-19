@@ -214,10 +214,6 @@ body.post {
 
 .post .attribution {
   margin-top: 1em;
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 100;
-  color: #F21B3F;
-  text-align: right;
 }
 
 a.blog-index {
@@ -228,13 +224,14 @@ a.blog-index {
 }
 
 a.blog-index:hover {
-  color: #fff;
+  color: #F21B3F;
   text-decoration: none;  
 }
 
-.blog-index .attribution {
+.attribution {
   text-align: right;
   font-style: italic;
+  color: #F21B3F;
 }
 
 
@@ -542,40 +539,40 @@ section:after, .post-content:after {
   margin-top: 3rem;
 }
 
-section:nth-of-type(5n+1) {
+section:nth-of-type(4n+1) {
   background-color: #FFF;
 }
 
-section:nth-of-type(5n+1):before,  section:nth-of-type(5n+1):after  {
+section:nth-of-type(4n+1):before,  section:nth-of-type(4n+1):after  {
   background-image: url("../img/frac-white-md.png");
 }
 
-section:nth-of-type(5n+2) {
+section:nth-of-type(4n+2) {
   background-color: #F56416;
   color: #000;
 }
 
-section:nth-of-type(5n+2) h2 {
+section:nth-of-type(4n+2) h2 {
   color: #fff;
 }
 
-section:nth-of-type(5n+2):before,  section:nth-of-type(5n+2):after  {
+section:nth-of-type(4n+2):before,  section:nth-of-type(4n+2):after  {
   background-image: url("../img/frac-orange-md.png");
 }
 
-section:nth-of-type(5n+3) {
+section:nth-of-type(4n+3) {
   background-color: #067BC2;
   color: #000;
 }
 
-section:nth-of-type(5n+3) h2 {
+section:nth-of-type(4n+3) h2 {
   color: #fff;
 }
 
-section:nth-of-type(5n+3):before,  section:nth-of-type(5n+3):after  {
+section:nth-of-type(4n+3):before,  section:nth-of-type(4n+3):after  {
   background-image: url("../img/frac-blue-md.png");
 }
-
+/*
 section:nth-of-type(5n+4) {
   background-color: #0EAD69;
   color: #fff;
@@ -583,14 +580,14 @@ section:nth-of-type(5n+4) {
 
 section:nth-of-type(5n+4):before,  section:nth-of-type(5n+4):after  {
   background-image: url("../img/frac-green-md.png");
-}
+}*/
 
-section:nth-of-type(5n) {
+section:nth-of-type(4n) {
   background-color: #222A4C;
   color: #fff;
 }
 
-section:nth-of-type(5n):before,  section:nth-of-type(5n):after  {
+section:nth-of-type(4n):before,  section:nth-of-type(4n):after  {
   background-image: url("../img/frac-navy-md.png");
 }
 
