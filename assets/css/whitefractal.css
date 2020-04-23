@@ -75,6 +75,10 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
+strong {
+  letter-spacing: 0.025em;
+}
+
 p strong {
   color: #F21B3F;
 }
@@ -583,7 +587,7 @@ section:nth-of-type(4n+2) {
   color: #000;
 }
 
-section:nth-of-type(4n+2) h2 {
+section:nth-of-type(4n+2) h2, section:nth-of-type(4n+2) strong {
   color: #fff;
 }
 
