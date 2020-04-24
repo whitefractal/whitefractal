@@ -153,11 +153,7 @@ blockquote {
 }
 
 @media screen and (min-aspect-ratio: 2/1)  {
-  .masthead {
-    background: yellow;    
-  }
-
-  .masthead .container h3 {
+  .masthead .container h5 {
     display: none;
   }
 }
