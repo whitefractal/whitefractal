@@ -596,13 +596,10 @@ section:nth-of-type(4n+3) {
   color: #000;
 }
 
-section:nth-of-type(4n+3) h2 {
+section:nth-of-type(4n+3) h2, section:nth-of-type(4n+3) strong {
   color: #fff;
 }
 
-section:nth-of-type(4n+3) strong {
-  color: #000;
-}
 
 section:nth-of-type(4n+3):before,  section:nth-of-type(4n+3):after  {
   background-image: url("../img/frac-blue-md.png");
