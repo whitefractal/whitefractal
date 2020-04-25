@@ -596,7 +596,7 @@ section:nth-of-type(4n+3) {
   color: #000;
 }
 
-section:nth-of-type(4n+3) {
+section:nth-of-type(4n+3) h2 {
   color: #fff;
 }
 
