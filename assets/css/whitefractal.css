@@ -79,7 +79,7 @@ strong {
   letter-spacing: 0.025em;
 }
 
-p strong {
+p strong, li strong {
   color: #F21B3F;
 }
 
@@ -96,7 +96,7 @@ code, a {
   height: 3em;
   text-align: center;
   color: white;
-  background: none;
+  background: #F21B3F;
   line-height: 3.25em;
 }
 
@@ -105,7 +105,7 @@ code, a {
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #222A4C;
 }
 
 .scroll-to-top i {
@@ -331,7 +331,7 @@ a.blog-index:hover {
   height: 3em;
   text-align: center;
   color: #fff;
-  background: none;
+  background: #F21B3F;
   line-height: 3.25em;
   z-index: 999;
 }
@@ -341,7 +341,7 @@ a.blog-index:hover {
 }
 
 .menu-toggle:hover {
-  background: #343a40;
+  background: #222A4C;
 }
 
 @media (max-width: 600px) {
@@ -491,7 +491,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #0EAD69;
+  background-color: #222A4C;
   color: #fff;
   text-decoration: none;
 }
@@ -579,30 +579,21 @@ section:nth-of-type(4n+1):before,  section:nth-of-type(4n+1):after  {
 }
 
 section:nth-of-type(4n+2) {
-  background-color: #F56416;
-  color: #000;
-}
-
-section:nth-of-type(4n+2) h2, section:nth-of-type(4n+2) strong {
+  background-color: #222A4C;
   color: #fff;
 }
 
 section:nth-of-type(4n+2):before,  section:nth-of-type(4n+2):after  {
-  background-image: url("../img/frac-orange-md.png");
+  background-image: url("../img/frac-navy-md.png");
 }
 
 section:nth-of-type(4n+3) {
-  background-color: #067BC2;
+  background-color: #fff;
   color: #000;
 }
 
-section:nth-of-type(4n+3) h2, section:nth-of-type(4n+3) strong {
-  color: #fff;
-}
-
-
 section:nth-of-type(4n+3):before,  section:nth-of-type(4n+3):after  {
-  background-image: url("../img/frac-blue-md.png");
+  background-image: url("../img/frac-white-md.png");
 }
 /*
 section:nth-of-type(5n+4) {
