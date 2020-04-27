@@ -75,15 +75,12 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
-strong {
+strong, p a {
+  font-weight: bolder;
   letter-spacing: 0.025em;
 }
 
-p strong, li strong {
-  color: #F21B3F;
-}
-
-code, a {
+p strong, li strong, code, a {
   color: #F21B3F;
 }
 
@@ -155,6 +152,7 @@ blockquote {
 
 .masthead .container {
   margin-top: 70vh;
+  max-width: none;
 }
 
 @media screen and (min-aspect-ratio: 2/1)  {
@@ -192,7 +190,7 @@ blockquote {
   margin-bottom: 1em;
   margin-top: 1em;
   font-style: italic;
-  font-size: 2em;
+  font-size: 1.25em;
 }
 
 body.post {
