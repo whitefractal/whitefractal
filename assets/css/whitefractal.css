@@ -87,6 +87,10 @@ code, a {
   color: #F21B3F;
 }
 
+li {
+  list-style-type: none;
+}
+
 .scroll-to-top {
   position: fixed;
   right: 0.5em;
@@ -129,14 +133,14 @@ blockquote {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #F21B3F;
-  border-bottom: 20vh solid #F21B3F;
+  border-bottom: 30vh solid #F21B3F;
   color: #fff;
 }
 
 .masthead h1 {
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .masthead h1 strong {
@@ -146,29 +150,34 @@ blockquote {
 .masthead h5 {
   font-weight: 100;
   text-transform: uppercase;
+  letter-spacing: 0.3em;
  }
 
 .masthead .container {
-  margin-top: 80vh;
+  margin-top: 70vh;
 }
 
 @media screen and (min-aspect-ratio: 2/1)  {
   .masthead .container h5 {
-    display: none;
+    font-size: 1rem;
+  }
+
+  .masthead .container h1 {
+    font-size: 3rem;
   }
 }
 
 @media screen and (min-aspect-ratio: 16/9)  {
   .masthead {
-    border-bottom-width: 30vh;
+    border-bottom-width: 35vh;
   }
 
   .masthead .container {
-    margin-top: 70vh;
+    margin-top: 65vh;
   }
 }
 
-@media screen and (max-aspect-ratio: 2/3)  {
+@media screen and (max-aspect-ratio: 4/5)  {
   .masthead {    
     border-bottom-width: 50vh;
   }
