@@ -227,6 +227,16 @@ body.post {
   background-image: url("../img/frac-white-md.png");
 }
 
+.post-content img {
+  max-width: 100%;
+}
+
+.post-content img + em {
+  display: block;
+  text-align: center;
+  color: #555;
+}
+
 .post footer {
   min-height: 310px;
 }
