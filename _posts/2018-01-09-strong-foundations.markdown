@@ -7,6 +7,8 @@ author: Alistair Braden
 summary: About the Dynamic Spectrum Alliance's Model Rules for TVWS.
 ---
 
+*This article was originally published on the [Nominet blog](https://nominet.uk/blog).*
+
 The [Dynamic Spectrum Alliance](http://dynamicspectrumalliance.org/) (DSA) has published new Model Rules for TV White Spaces. This is a template set of rules and regulations to ease the adoption of TV White Space by countries around the world.
 
 These new rules combine and refine the best parts of existing regulations. They can be customised for any country’s specific needs, and they harmonise with existing models to facilitate international market development.
@@ -34,5 +36,3 @@ The exact frequencies and power limits in a dynamic licence are computed by comp
 This dynamic approach is well-suited to television frequencies (i.e. UHF and VHF), as about half of these are unused at any given location. However, these gaps (or ‘white spaces’) are in different frequencies in different places. Neither of the traditional regulatory approaches facilitates widespread general-purpose use of these gaps, making Dynamic Spectrum Management attractive to regulators wishing to maximise the benefit to their citizens through efficient use of their spectrum.
 
 Access to the internet is increasingly seen as a basic human right, a right which is denied to many millions of people by a lack of infrastructure. TVWS is a proven technology for bringing broadband internet to under-served areas. The DSA’s new Model Rules provide a solid foundation for the ongoing growth of TVWS around the world, and help to promote a more dynamic approach to spectrum that will prove a valuable, sustainable connectivity solution in our ever-evolving digital world. Learn more about the technical detail of these new rules in [Long Read: Enabling TVWS and Protecting Incumbents]({% post_url 2018-01-15-long-read %}).
-
-*This article was originally published on the [Nominet blog](https://nominet.uk/blog).*
