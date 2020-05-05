@@ -32,9 +32,9 @@
     {% include post-header.html %}
     
     <div class="post-content mx-auto">
-        <h1 class="text-center">{{ page.title }}</h1>        
-        {{ content }}
+        <h1 class="text-center">{{ page.title }}</h1>
         <div class="attribution">{{ page.author}}, {{ page.date | date_to_long_string: "ordinal" }}</div>
+        {{ content }}        
     </div>
 
     <!-- Footer -->
