@@ -2,12 +2,12 @@
 layout: post
 title:  "Long Read: Enabling TVWS & protecting incumbents"
 date:   2018-01-15 12:00:00 +0000
-categories: tvws dsm
+categories: dsm
 author: Alistair Braden
 summary: About the Dynamic Spectrum Alliance's Model Rules for TVWS.
 ---
 
-Following the [Dynamic Spectrum Alliance](http://dynamicspectrumalliance.org/)’s publication of its new Model Rules for TV White Spaces (TVWS), we published a blog **ADD LINK** giving an overview of the rules and their importance to the global development of TVWS. This second article is a deep-dive into some of the more detailed aspects of the rules, and how they have been crafted to achieve various real-world outcomes.
+Following the [Dynamic Spectrum Alliance](http://dynamicspectrumalliance.org/)’s publication of its new Model Rules for TV White Spaces (TVWS), we published a [blog]({% post_url 2018-01-09-strong-foundations %})  giving an overview of the rules and their importance to the global development of TVWS. This second article is a deep-dive into some of the more detailed aspects of the rules, and how they have been crafted to achieve various real-world outcomes.
 
 The purpose of TVWS regulation is to allow and facilitate a technical and commercial ecosystem which provides social and economic benefit to citizens. It should enable the widest possible diversity of technologies and use-cases, while giving strong protection to the incumbent spectrum users (such as TV broadcaster). The DSA Model Rules have two main sections: Technical Rules, which serve to enable TVWS use-cases, and Coexistence Calculations, which protect incumbent users.
 
